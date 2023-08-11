@@ -130,6 +130,7 @@ h2{
     flex-direction: row;
     justify-content: center;
     padding: 15px;
+    height: 700px;
 }
 .skills-container{
     flex: 1 1 1;
@@ -229,4 +230,56 @@ footer .detail{
     box-shadow: 3px 3px 8px 1px  #424348;
     padding-bottom: 15px;
     margin-bottom: 100px;
+}
+
+.types{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #a8c4f0;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border: solid 2px #3375df;
+}
+
+.boxdesafios{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: justify;
+    background-color: #a8c4f0;
+    border-radius: 25px;
+    border: solid 2px #3375df;
+}
+
+.partone{
+    display: flex;
+    width: 430px;
+    flex-direction: column;
+    margin-right: 15px;
+    border-right: solid 2px #3375df;
+    padding-right: 35px;
+}
+.parttwo{
+    display: flex;
+    width: 485px;
+    flex-direction: column;
+}
+
+.p1{
+    border-right: solid 2px #3375df;
+    padding-right: 15px;
+}
+
+.p2{
+    border-right: solid 2px #3375df;
+    padding-right: 15px;
 }
